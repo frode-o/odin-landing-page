@@ -215,3 +215,15 @@ header a {
     font-size: 16px;
     border-radius: 6px;
 }
+
+
+/* For footer */
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
