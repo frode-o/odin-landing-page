@@ -144,3 +144,35 @@ header a {
     border-radius: 10px;
     margin-bottom: 16px;
 }
+
+
+/* This is for the quotes section */
+
+.quote {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 16px;
+
+}
+
+.quote-wrapper > p {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.credit {
+    align-self: flex-end;
+    font-size: 18px;
+}
+
