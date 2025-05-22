@@ -89,11 +89,12 @@ header a {
 
 .cta {
     background-color: #3882f6;
-    padding: 8px 20px;
+    padding: 8px 30px;
     color: #e5e7eb;
     font-size: 16px;
     border: none;
     border-radius: 6px;
+    flex: none;
 }
 
 
@@ -176,3 +177,41 @@ header a {
     font-size: 18px;
 }
 
+
+/* For CTA */
+
+.CTA-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.CTA-element {
+    background-color: #3882f6;
+    width: 80vw;
+    padding: 56px 128px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+
+.CTA-element h2 {
+    margin-bottom: 8px;
+}
+
+.CTA-button {
+    flex: none;
+}
+
+.CTA-button button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    box-shadow: none;
+    padding: 8px 30px;
+    border: 2px solid #f9faf8;
+    font-size: 16px;
+    border-radius: 6px;
+}
