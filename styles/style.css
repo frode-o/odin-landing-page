@@ -1,0 +1,146 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* For the header */
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper {
+    width: 80vw;
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.main-nav {
+    display: flex;
+    gap: 24px;
+}
+
+
+/* For the hero */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 100px 0;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    gap: 24px;
+}
+
+.hero img {
+    width: 40vw;
+    height: auto;
+    min-width: 250px;
+}
+
+.hero-text h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 18px;
+}
+
+.cta {
+    background-color: #3882f6;
+    padding: 8px 20px;
+    color: #e5e7eb;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+/* For cards section */
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 128px;
+}
+
+.heading {
+    margin-top: 36px;
+}
+
+.heading h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    padding-top: 36px;
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    gap: 36px;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
